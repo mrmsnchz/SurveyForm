@@ -1,0 +1,114 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  background-image: url("https://www.kindpng.com/picc/m/118-1186555_dog-paw-background-png-png-download-dog-paw.png");
+  font-family: helvetica, futura;
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 1.5;
+  margin: 0 1.5rem;
+  text-align: justify;
+}
+
+main {
+  background-color: #f5f3ef;
+  margin: 30 auto 0 auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+#title {
+  text-align: center;
+  padding-right: 10px;
+  text-shadow: .3px .7px;
+  color: #645556;
+}
+
+#description {
+  font-size: 2.2rem;
+  margin: 0.5rem;
+  text-align: center;
+  text-shadow: .3px .6px;
+  color: #615657;
+}
+
+#survey-form {
+  background-color: #f5f3ef;
+  border-radius: 10px;
+  padding: 2.5rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+p {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+input,
+textarea,
+select, 
+button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+.fill-in:focus,
+.input-textarea:focus {
+  border-color: #F3F5EF;
+  box-shadow: 9px 8px 19px 4px;
+  outline: 0;
+}
+
+.fill-in,
+.textarea {
+  background-color: #f7f6f2;
+  border: 2px solid #f2f2f2;
+  border-radius: 5px;
+  color: #817878;
+  padding: 0.4rem 0.7rem;
+  width: 100%;
+  box-shadow: inset 3px 5px 9px #ede8e8, inset -6px -6px 13px #f7f7f5;
+  height: 3.3rem;  
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.input-checkbox,
+.input-radio {
+  margin-right: 1rem;
+  min-height: 3rem;
+  min-width: 1.2rem;
+}
+
+.textarea {
+  min-height: 9rem;
+  margin-bottom: 3rem;
+}
+
+span {
+  font-size: 1.3rem;
+  font-style: italic;
+  margin-left: 0.3rem;
+}
+
+button {
+  text-align: center;
+  display: block;
+  font-size: 1.8rem;
+  background-color: #f7f6f2;
+  width: 100%;
+  max-height: 5rem;
+  padding: .5rem;
+  cursor: pointer;
+  border: 1px solid #f2e9e9;
+  border-radius: 5px;
+  box-shadow: 3px 15px 19px 3px #d6d6d6, inset -3px -15px 9px 37px #f0efed;
+}

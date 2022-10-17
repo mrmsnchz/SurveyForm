@@ -1,0 +1,223 @@
+<!-- 
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+-->
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" media="screen and (min-width: 900px)" href="widescreen.css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="smallscreen.css">
+  </head>
+
+<body>
+<main>
+  <h1 id="title"><strong>Do you need a dog? 🐕</strong></h1>
+     <p id="description">Here are a couple of questions you need to ask yourself before getting a dog.</p>
+   
+    
+  <form id="survey-form">
+    <div class="form-group">
+    <label id="name-label" for:"name">
+     Name</label>
+     
+    <input id="name" 
+           type="text"
+           name="name"
+           class="fill-in"
+           placeholder="Hooman"
+           required>
+    </div>
+      
+    <div class="form-group">
+    <label id="email-label" for:"email">
+     Email</label>
+    <input id="email" 
+           type="email"
+           name="email"
+           class="fill-in"
+    placeholder="furrparent@canine.com"
+           required>
+    </div>
+      
+    <div class="form-group">
+    <label id="number-label" for:"number">
+    How many dogs do you think you can own?</label>
+    <input id="number" 
+           type="number"
+           name="number"
+           class="fill-in"
+           placeholder="1"
+           min="1"
+           max="10"
+           required>
+    </div>
+     
+    <div class="form-group">
+    <p>Have you done your research?<span>(Check all that apply)</span></p>
+    <label>
+    <input type="checkbox"
+           name="research"
+           value="financial"
+           class="input-checkbox">Your financial stability
+    </label>
+      
+    <label>
+    <input type="checkbox"
+           name="research"
+           value="mental"
+           class="input-checkbox">Your mental stability and capability
+    </label>      
+      
+    <label>
+    <input type="checkbox"
+           name="research"
+           value="cost"
+           class="input-checkbox">Cost of dog living
+    </label>
+    
+    <label>
+    <input type="checkbox"
+           name="research"
+           value="neighborhood"
+           class="input-checkbox">Neighborhood, landlord, and environment
+    </label>
+      
+    <label>
+    <input type="checkbox"
+           name="research"
+           value="breed"
+           class="input-checkbox">Breed that fits with your lifestyle
+    </label>
+      
+    <label>
+    <input type="checkbox"
+           name="research"
+           value="age"
+           class="input-checkbox">Age and training time
+    </label>
+    
+    <label>
+    <input type="checkbox"
+           name="research"
+           value="clinic"
+           class="input-checkbox">Nearest veterinarian clinic
+    </label>
+    
+    <label>
+    <input type="checkbox"
+           name="research"
+           value="possible"
+           class="input-checkbox">Possible dog sitters and dog school
+    </label>
+    </div>
+
+
+    <div class="form-group">
+    <p>Would you consider fostering first?</p>
+    <label>
+    <input type="radio"
+           name="fostering"
+           value="yes"
+           class="input-radio"
+           checked>Yes
+    </label>
+    
+    <label>
+    <input type="radio"  
+           name="fostering"
+           value="no"
+           class="input-radio">No
+    </label> 
+      
+    <label>
+    <input type="radio"  
+           name="fostering"
+           value="maybe"
+           class="input-radio">Maybe
+    </label>
+    </div>
+    
+    <div class="form-group">
+    <p>Is it your first time to have a dog?</p>
+    <label>
+    <input type="radio"
+           name="first"
+           value="yes"
+           class="input-radio"
+           checked>Yes
+    </label>
+    
+    <label>
+    <input type="radio"  
+           name="first"
+           value="no"
+           class="input-radio">No
+    </label> 
+      
+    <label>
+    <input type="radio"  
+           name="first"
+           value="forgot"
+           class="input-radio">I forgot
+    </label>
+    </div>
+    
+    <div class="form-group">
+    <p>It generally takes between two weeks and three months for dogs to settle into a new environment. Are you ready for a change?</p>
+    <select id="dropdown"
+            name="scenario"
+            class="fill-in"
+            required>
+    <option disabled selected value>Select an option:</option>
+    
+    <option value="supplies">I am ready. I have an open heart and mind throughout the process</option>
+        
+    <option value="flee">I am a weak human and would give them away.</option>
+    </select>
+    </div>
+      
+    <div class="form-group">
+    <p>Everyone else in your home is on board. Are you sure?</p>
+    <select id="dropdown"
+            name="scenario"
+            class="fill-in"
+            required>
+    <option disabled selected value>Select an option:</option>
+    
+    <option value="additional">Yes, my spouse, kids, plants, and pets are excited to have an additional member of the squad.</option>
+        
+    <option value="team">Not yet, I will surprise everyone and pray they will like the newest member of the team.</option>
+    </select>
+    </div>
+      
+    <div class="form-group">
+    <p>You’re setting your home up for your new dog. Do you have all the supplies?</p>
+    <select id="dropdown"
+            name="scenario"
+            class="fill-in"
+            required>
+    <option disabled selected value>Select an option:</option>
+    
+    <option value="complete">I have the complete dog package (home, health, food, and walking).</option>
+        
+    <option value="team">I will be spontaneous. I will cross the bridge and buy stuff when I get there.</option>
+    </select>
+    </div>        
+      
+    <div class="form-group">
+    <p>Kindly leave a short detailed answer to why you should own a dog.<span> Carefully think about it before expanding your family by four paws and a bark.</span></p>
+    <textarea id="specification"
+              name="specify-answer"
+              class="textarea"
+              placeholder="“Most people just take the dog at cuteness value, not factoring in expenses or the discipline it takes to have one,”-Brandon McMillan" required></textarea>
+    </div>
+      
+    <div class="group">
+    <button id="submit"
+            type="submit">
+    Submit🐾
+    </button>
+    </div>  
+    </form>
+</main>
+</body>
+</html>
